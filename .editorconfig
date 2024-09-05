@@ -1,0 +1,14 @@
+# EditorConfig ayuda a definir estilos consistentes en diferentes editores.
+root = true
+
+[*]  # Reglas generales para todos los archivos
+indent_style = tab            # Usar tabs en lugar de espacios
+indent_size = 2               # Tamaño del tabulador de 2 espacios (aunque sea tab)
+end_of_line = lf              # Saltos de línea estilo Unix (lf)
+charset = utf-8               # Codificación UTF-8
+trim_trailing_whitespace = true   # Eliminar espacios al final de las líneas
+insert_final_newline = true       # Añadir nueva línea al final de los archivos
+max_line_length = 120             # Máximo 120 caracteres por línea
+
+[*.ts, *.js, *.tsx, *.json]  # Reglas específicas para archivos TypeScript, JavaScript y JSON
+quote_type = single          # Usar comillas simples
